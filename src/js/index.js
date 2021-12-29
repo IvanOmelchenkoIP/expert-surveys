@@ -48,7 +48,7 @@ app.post('/api/addexpert/', json, function (req, res) {
   connection.connect(function (err) {
     if (err) throw err;
 
-    connection.query("SELECT * FROM Expert", (err, result, fields) => {
+    connection.query(sql, (err, result, fields) => {
       if (err) throw err;
       result ? res.send(result) : res.sendStatus(404);
     });

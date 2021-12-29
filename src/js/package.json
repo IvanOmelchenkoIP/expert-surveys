@@ -1,0 +1,15 @@
+{
+  "name": "package_db",
+  "version": "1.0.0",
+  "description": "В цьому розділі розміщені програмні коди для доступу до бази даних (в прикдаді - js).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  }
+}
